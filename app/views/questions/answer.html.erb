@@ -1,0 +1,16 @@
+<h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+
+
+<% if @question.include?("?") %>
+  <% return @answers[2]%>
+<% elsif @question == "I am going to work" %>
+  <% return @answers[1]%>
+<% else %>
+  <% return @answers[3]%>
+<% end %>
+
+
+ <% link_to ask_path %>
+
+

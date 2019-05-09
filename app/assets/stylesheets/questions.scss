@@ -1,0 +1,15 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$width: 300px;
+$indent: 30px;
+$pmargin: 23px;
+
+#form {
+  width: $width;
+}
+
+p {
+  text-indent: $indent;
+  margin-top: 23px;
+}
